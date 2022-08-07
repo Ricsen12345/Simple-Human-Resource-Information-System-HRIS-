@@ -1,5 +1,5 @@
 # Simple Human Resource Information System HRIS
-This project aims to keep track of employees data within a company. This project is based on Object-Oriented Programming using Python language. This project is neither connected to any database nor any other UI design.
+This project aims to keep track of employees data within a company. This project is an Object-Oriented program made in Python. This project doesn't have any connection to database and doesn't have any UI design.
 
 Contributors: Ricsen, Muh. Raihan Arrasyid, and Tony Hendra Wijaya.
 
