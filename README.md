@@ -1,13 +1,12 @@
-Simple Human Resource Information System HRIS
-=============================================
+Human Resource Information System (HRIS)
+========================================
 
 <p>
   This project aims to keep track of employees data within a company. This project is an Object-Oriented program made in Python. This project doesn't have any connection to database and doesn't have any UI design. This project also consists of lots of exception handling, so you'll hardly find any error when running the program.
 </p>
-**Contributors**: Ricsen, Muh. Raihan Arrasyid, Tony Hendra Wijaya.
 
 
-<br/>
+<br/><br/>
 <h2>Stored Information</h2>
 <p>
   HRIS in this program is created to store information about each employee who works in the company. Some information is entered by the employees themselves, such as their name, NIK or ID number, gender, account password, department, main address, place of birth, and date of birth. Other information is generated automatically by the system, such as employee ID, company email, age, position, status of the employee (active/inactive), starting day, total years of working at the company, and monthly salary.
@@ -18,9 +17,9 @@ Simple Human Resource Information System HRIS
 <p>
   The employee's age is calculated automatically by the system using information regarding the current date and date of birth of the employee. The position of the employee when entering the company is staff by default. The status of the employee when entering the company is active by default. The employee's monthly salary is calculated according their department and position in the company using the following equation:
 </p>
-<h5>
+<h4>
   S=%S*clsmax_S
-</h5>
+</h4>
 <p>
   where S is the employee’s monthly salary, %S is the salary percentage based on employee’s position (appendix B), clsmax_S is the maximum salary based on the employee's department (appendix C).
 </p>
@@ -56,4 +55,50 @@ Simple Human Resource Information System HRIS
 <h2>Further Details</h2>
 <p>
   It's available in every python file in this repository, so if you want to know more about these classes, it's better to take a look at them than this readme file because this file is only meant as an introduction to the system. If you want to know what it looks like at run time, you might want to copy (clone) it to your device and run it using your interpreter. Type this command in your terminal:
-<h5>git clone 
+</p>
+<h4>
+  git clone https://github.com/Ricsen12345/Simple-Human-Resource-Information-System-HRIS-.git
+</h4> 
+
+
+<br/>
+<h2>Contributors</h2>
+<p>
+  I would like to thank everyone who contributed to this project. Special thanks go to Muh. Raihan Arrasyid and Tony Hendra Wijaya who involved in making several classes on this project. Thanks as well to Mr.Iksan Bukhori, our lecturer at President University who taught us basics in Object-Oriented Programming and giving suggestions in this project.
+</p>
+
+
+<br/>
+<h2>Appendix A: Department ID</h2>
+<ul>
+  <li>HRD          : 001</li>
+  <li>Accounting   : 002</li>
+  <li>Production   : 003</li>
+  <li>Data Analyst : 004</li>
+  <li>Marketing    : 005</li>
+  <li>Purchasing   : 006</li>
+  <li>Maintenance  : 007</li>
+</ul>
+
+
+<br/>
+<h2>Appendix B: Salary Percentage (Default)</h2>
+<ul>
+  <li>Staff           : 40%</li>
+  <li>Executive       : 60%</li>
+  <li>Section head    : 80%</li>
+  <li>Department head : 100%</li>
+</ul>
+
+
+<br/>
+<h2>Appendix C: Maximum Salary (Default)</h2>
+<ul>
+  <li>HRD          : IDR 17,500,000</li>
+  <li>Accounting   : IDR 19,000,000</li>
+  <li>Production   : IDR 21,000,000</li>
+  <li>Data Analyst : IDR 25,000,000</li>
+  <li>Marketing    : IDR 15,000,000</li>
+  <li>Purchasing   : IDR 16,500,000</li>
+  <li>Maintenance  : IDR 20,000,000</li>
+</ul>
